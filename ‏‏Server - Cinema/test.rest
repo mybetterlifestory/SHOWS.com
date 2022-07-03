@@ -1,0 +1,9 @@
+GET http://localhost:9876/login
+Content-Type: application/json; 
+
+
+{
+    "username": "admin",
+    "email": "admin@mail.com",
+    "password": "ADMIN"
+}

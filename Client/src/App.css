@@ -1,0 +1,383 @@
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(21, 28, 101);
+}
+
+.App Label {
+  color: rgb(21, 28, 101);
+}
+
+.App Button {
+  background-color: rgb(33, 39, 105);
+  border: none;
+}
+
+.Welcome { 
+  padding: 20px;
+}
+
+.Info {
+  display: grid;
+  grid-template-columns: 450px 1000px;
+}
+
+.Info a {
+  color: rgb(21, 28, 101);
+  text-decoration: none;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(24, 28, 74);
+}
+
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar h2{
+  color: white;
+  padding-right: 10px;
+}
+
+.Main {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.Login {
+  margin: 10px;
+  padding: 10px;
+  width: 350px;
+  height: 580px;
+  text-align: left;
+}
+
+.Login h2 {
+  text-align: center;
+}
+
+.Register {
+  margin: 10px;
+  padding: 10px;
+}
+
+.Register p {
+  font-size: 12px;
+}
+
+.staff{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.staff a {
+  padding-right: 30px;
+}
+
+.ShowsMain {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.ShowsMain h1 {
+  font-size: 50px;
+}
+
+.StorBy {
+  padding: 30px;
+  margin: 10px;
+  width: 240px;
+  text-align: left;
+}
+
+.StorBy select {
+  width: 180px;
+  height: 30px;
+}
+
+.StorBy input {
+  width: 180px;
+}
+
+.showList {
+  padding: 5px;
+}
+
+.showContainer {
+  display: grid;
+  grid-template-columns: 185px 185px 185px 185px 185px 185px;
+  grid-gap: 15px;
+}
+
+.cardShow {
+  cursor: pointer;
+}
+
+.cardTop {
+  height: 250px;
+  border: 1px solid black;
+
+}
+
+.cardTop img {
+  width: 100%;
+  height: 100%;
+}
+
+.cardInfo h4 {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.showInfo {
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.showInfo div {
+  padding: 5px;
+  margin: 5px;
+}
+
+.IMG{
+  width: 200px;
+  height: 330px;
+  border: 1px solid black;  
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  /* width: 70%; */
+  /* align-items: center; */
+  text-align: left;
+
+}
+
+.showSummary {
+  /* border: 1px solid black;   */
+  width: 700px;
+  text-align: left;
+}
+
+.Profile {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+}
+
+.Menu {
+  text-align: left;
+  height: 440px;
+  padding: 10px;
+}
+
+.Menu a {
+  color: rgb(52, 59, 126);
+}
+
+.Menu a:hover {
+  color: black;
+}
+
+.Dashboard {
+  display: grid;
+  grid-template-columns: 600px 600px;
+  grid-template-rows: 250px 250px;
+}
+
+.UserDashboard {
+  display: grid;
+  grid-template-columns: 600px 600px;
+  grid-template-rows: 250px 250px;
+  padding-top: 20px;
+}
+
+.ViewContainer {
+  background-color: rgb(228, 234, 243);
+  padding: 10px;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+
+}
+
+.ViewContainer Button {
+  font-size: 12px;
+}
+
+.ViewContainer Input {
+  width: 170px;
+}
+
+.ViewAll {  
+  width: 100%;
+  background-color: rgb(228, 234, 243);
+  padding: 5px;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+
+}
+
+.ViewAll Button {
+  font-size: 12px;
+}
+
+.ViewAll Input {
+  width: 170px;
+}
+
+.center {
+  display: flex;
+  width: 850px;
+  padding-left: 100px;
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  align-items: center;
+}
+
+.option a {
+  color: rgb(21, 28, 101);
+  margin: 5px;
+  text-decoration: none;
+}
+
+.option a:hover {
+  color: rgb(86, 95, 187);
+}
+
+.dashItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SpaceBetween {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  width: 70%;
+}
+
+/* .SpaceBetween {} */
+
+.List {
+  background-color: rgb(228, 234, 243);
+  width: 650px;
+  padding: 5px;
+  padding: 10px;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.List Input {
+  width: 190px;
+}
+
+.LinkSpace {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  font-size: 14px;
+}
+
+.LinkSpace a {
+  color: rgb(21, 28, 101);
+}
+
+.Inputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 5px;
+}
+
+.Inputs input {
+    height: 30px;
+    width: 95px;
+}
+
+.Inputs select {
+  height: 30px;
+  width: 140px;
+  border: none;
+}
+
+.Inputs Label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.FormList Input {
+  margin: 5px;
+  width: 223px;
+}
+
+.AddingNew {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  top: 100px;
+  left: 550px;
+  right: 550px;
+  bottom: 100px;
+  min-width: 400px;
+  background-color: rgba(38, 42, 89, 0.9);
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.AddingNew div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.AddingNew Label {
+  color: white;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.AddingNew Input {
+  height: 30px;
+}
+
+.AddingNew Select {
+  width: 170px;
+  height: 30px;
+  font-size: 12px;
+}
+
+.AddingNew Textarea {
+  width: 170px;
+  height: 80px;
+}
+
+.AddingNew Button {
+  font-size: 16px;
+  background-color: white;
+  color:  rgba(38, 42, 89, 0.9);
+}
