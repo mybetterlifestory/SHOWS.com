@@ -1,4 +1,4 @@
-import React from 'react';
+import { Label } from 'reactstrap';
 
 function MySubscriptions(props) {
     return (

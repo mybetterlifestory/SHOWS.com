@@ -3,7 +3,7 @@ import Shows from '../UserPages/Shows/DashShows';
 import Members from '../UserPages/Members/DashMembers';
 import Subscriptions from '../UserPages/Subscriptions/DashSubscriptions';
 
-function Dashboard(props) {
+function Dashboard() {
     return (
         <div className="Dashboard">
             <Users />

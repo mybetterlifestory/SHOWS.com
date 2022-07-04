@@ -4,7 +4,8 @@ import { BsFillBarChartFill, BsFillPersonLinesFill, BsFillBookmarkHeartFill } fr
 import { BiSlideshow } from "react-icons/bi";
 import MyProfile from './MyProfile';
 import MySubscriptions from './MySubscriptions';
-import Shows from '../../Public/Shows/ShowsMain';
+// import Shows from '../../Public/Shows/ShowsMain';
+import Dashboard from './MemberDashboard';
 
 function MemberPage(props) {
 
@@ -22,8 +23,11 @@ function MemberPage(props) {
                     </Nav>
                 </div>
                 <Switch>
-                    <Route path="/MyProfile" component={MyProfile}/>
+                    <Route path="/MyProfile" component={MyProfile} />
                     <Route path="/MySubscriptions" component={MySubscriptions} />
+                    <>
+                        <Dashboard />
+                    </>
                 </Switch>
             </Router>
         </div>

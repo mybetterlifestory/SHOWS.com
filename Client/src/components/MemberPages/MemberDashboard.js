@@ -1,9 +1,21 @@
-import React from 'react';
+import { Label } from 'reactstrap';
 
-function MemberDashboard(props) {
+function MemberDashboard() {
     return (
-        <div>
-            Member Dashboard
+        <div className="MemberDash">
+            <Label>Member Dashboard</Label>
+            <div className="banner">
+                <img src=''/>
+            </div>
+            <div>
+                <div>
+                    <Label>You Liked   Shows</Label>
+                </div>
+                <div>
+                    <Label>Total </Label>
+
+                </div>
+            </div>
         </div>
     );
 }
